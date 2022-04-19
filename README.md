@@ -27,13 +27,6 @@ The overall price is in the range *OF LESS THAT A ZILLION*.
 * IT DOES YOUR LAUNDRY?!
 
 
-# Table of Content
-* **[Software](#-software)**
-* **[Hardware](#-hardware)**
-* **[Bill of materials](#-bill-of-materials)**
-* **[Electronics](#-electronics)**
-* **[Results](#-results)**
-
 
 ## In-Action
 *SHARE YOUR FANCY GIF HERE. IT MOVES!*
@@ -149,6 +142,15 @@ General: Radiation perceptible by the human eye.
 
 <a href="#logo" name="logo"><img src="./IMAGES/image001.png" width="600"></a>
 
+<a href="#logo" name="logo"><img src="./IMAGES/image003.png" width="600"></a>
+
+
+
+image001.pngimage002.jpgimage003.pngimage004.jpgimage005.pngimage006.jpgimage007.pngimage008.jpgimage009.jpgimage010.jpgimage011.jpgimage012.jpgimage013.jpgimage014.jpgimage015.jpgimage016.jpgimage017.jpgimage018.jpgimage019.jpgimage020.jpgimage021.jpgimage022.jpgimage023.jpgimage024.jpgspectrum-02-12-2021-08/27/23.jpg
+
+
+
+
 - high wavelengths, low energy = infrared light (IR)
 - short wavelengths, high energy = ultraviolet light (UV)
 
@@ -166,6 +168,11 @@ General: Radiation perceptible by the human eye.
 - Body black, absorbs electromagnetic radiation (heating of the body)
 - Each wavelength is assigned a colour, eye no longer sees white, but colour of residual light
 -> pairs of colours are called complementary colours
+
+
+<a href="#logo" name="logo"><img src="./IMAGES/image001.png" width="600"></a>
+
+<a href="#logo" name="logo"><img src="./IMAGES/image002.png" width="600"></a>
 
 
 ## Spectrometer:
