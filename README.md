@@ -8,46 +8,6 @@
 
 This repository will help you to build and setup a simple *Spectrometer*.
 
-*DESCRIBE WHAT IT DOES AND WHAT IT IS FOR.*
-
-Curious to see what this looks like? Keep scrolling!
-
-*INCLUDE A NICE PICTURE AND/OR SCHEME.*
-
-<p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/"></a>
-</p>
-
-The overall price is in the range *OF LESS THAT A ZILLION*.
-
-
-***Features:***
-* IT MOVES?!
-* IT TAKES IMAGES?!
-* IT DOES YOUR LAUNDRY?!
-
-
-
-## In-Action
-*SHARE YOUR FANCY GIF HERE. IT MOVES!*
-
-<p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/" width="600"></a>
-</p>
-
-
-# Software
-*HOW DO I CONTROL THIS THING?*
-
-## Custom Python code *IF APPLICABLE*
-We also provide a code example for driving the device using a python driver. Please refer to the code and the package in the folder [PYTHON](./PYTHON).
-
-## *CUSTOM FANCY SOFTWARE*
-We also provide *SOME SORCERY* for driving the device. Find the files in folder [*MY_AWESOME_SOFTWARE*]().
-
-# Hardware
-
-Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above. One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
 
 
 ## Bill of material
@@ -64,60 +24,6 @@ All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (
 | *FANCY* Holder |  *IT HOLD OTHER FANCY PARTS* |  x,xx € | [Part.stl](./STL/)  |
 
 
-### Additional parts
-This is used in the current version of the setup
-
-|  Type | Details  |  Price | Link  |
-|---|---|---|---|
-| *FANCY* Part | *IT DOES SOME MAGIC* |  xx € | [My favourite online shop]()  |
-
-### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER FORMAT, GET YOUR OWN FOLDER.*
-
-
-### Electronics
-*THE FANCY ELECTRONICS TO RUN THE MOTOR! ...OR WHATEVER YOU USE THERE.*
-
-
-### Assembly of the DEVICE
-
-***1.*** *These are the parts needed for the DEVICE*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *Start by ...*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *Continue with ...*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *DONE! LOOK AT THE BEAUTY!*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-
-## Showcase
-*AWESOME RESULTS!*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***Fig 1.*** *MY MOST AWSOME IMAGE*
-
-
-
-
 
 
 # Introduction to Spectroscopy
@@ -127,27 +33,24 @@ The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER
 - Science of the interaction between light and matter
 - Decomposition of an input quantity and sorting along a scale
 - Investigates at which frequencies/wavelengths a substance can absorb (absorb) or emit (emit) energy in the form of light quanta or electromagnetic waves
-- Used to study the properties of radiation itself. 
+- Used to study the properties of radiation itself.
 
+![](./IMAGES/image001.png)
+*Fig 1.: Visible Spectrum*
 
 **Light plays a major role here:**
 
-General: Radiation perceptible by the human eye. 
+General: Radiation perceptible by the human eye.
 
-- Are electromagnetic rays with a wavelength between approx. 400 and 800 nm. 
-- Waves with a wavelength of 400 nm are perceived as violet. 
-- With increasing wavelength, colours of the rainbow are seen via blue, green, yellow, orange, red, up to red-violet at 800nm. 
+- Are electromagnetic rays with a wavelength between approx. 400 and 800 nm.
+- Waves with a wavelength of 400 nm are perceived as violet.
+- With increasing wavelength, colours of the rainbow are seen via blue, green, yellow, orange, red, up to red-violet at 800nm.
 - Range of the electromagnetic spectrum is also called the "VIS" (optical window)
 
 
-<a href="#logo" name="logo"><img src="./IMAGES/image001.png" width="600"></a>
 
-<a href="#logo" name="logo"><img src="./IMAGES/image003.png" width="600"></a>
-
-
-
-image001.pngimage002.jpgimage003.pngimage004.jpgimage005.pngimage006.jpgimage007.pngimage008.jpgimage009.jpgimage010.jpgimage011.jpgimage012.jpgimage013.jpgimage014.jpgimage015.jpgimage016.jpgimage017.jpgimage018.jpgimage019.jpgimage020.jpgimage021.jpgimage022.jpgimage023.jpgimage024.jpgspectrum-02-12-2021-08/27/23.jpg
-
+![](./IMAGES/image005.png)
+*Fig 3: Absorption Spectroscopy*
 
 
 
@@ -157,69 +60,122 @@ image001.pngimage002.jpgimage003.pngimage004.jpgimage005.pngimage006.jpgim
 
 ### Matter
 
-- Everything material that surrounds us (gaseous, liquid and solid). 
+- Everything material that surrounds us (gaseous, liquid and solid).
 - When radiation hits matter it acts as an obstacle and the radiation is either absorbed (swallowed), transmitted (let through) or reflected (thrown back)
 
 ### Oscillation:
 
 - Any periodically recurring process
 - Sinusoidal oscillation (harmonic oscillation)
-- Sensory impression white means that our eye receives all wavelengths of the "VIS 
+- Sensory impression white means that our eye receives all wavelengths of the "VIS
 - Body black, absorbs electromagnetic radiation (heating of the body)
 - Each wavelength is assigned a colour, eye no longer sees white, but colour of residual light
 -> pairs of colours are called complementary colours
 
 
-<a href="#logo" name="logo"><img src="./IMAGES/image001.png" width="600"></a>
-
-<a href="#logo" name="logo"><img src="./IMAGES/image002.png" width="600"></a>
+![](./IMAGES/image003.png)
+*Fig 2: Light-wave as a sine wave*
 
 
 ## Spectrometer:
 
-- Device for displaying a spectrum 
--> Measuring spectra 
+- Device for displaying a spectrum
+-> Measuring spectra
 
 ## Construction:
 
-- Light source 
-- Monochromator 
-- Sample (cuvette) 
-- detector 
+- Light source
+- Monochromator
+- Sample (cuvette)
+- detector
 
 ## Grating order:
 
-- Laser beam is directed onto a grating (e.g. blank DVD) which has previously been freed from a reflective layer. 
+- Laser beam is directed onto a grating (e.g. blank DVD) which has previously been freed from a reflective layer.
 - Beam of zero order n=0, sine(alpha)=0 appears in the centre of an oblique screen.
 ->beam passes grating without change of direction, independent of wavelength (lambda)
 - Further reflections appear above and below (1 and -1order)
+
+![](./IMAGES/image007.png)
+*Fig 4: Diffraction at a grating*
+
+![](./IMAGES/image009.jpg)
+*Fig 5: Diffraction at a grating with a real grating*
+
+
 
 ## Build your own spectrometer using 3D printing technology:
 
 **Needed:**
 
 - Light source (torch)
-- Slit (to "catch" a 1st order beam) 
-- lens 
+- Slit (to "catch" a 1st order beam)
+- lens
 - grating
-- Lens + camera 
+- Lens + camera
 
-
+## Assembly
 
 - No extra lens was used in this experiment
 -> camera lens
-- Darken camera 
--> 3D parts used, magnets and screws 
+- Darken camera
+-> 3D parts used, magnets and screws
+
+### Step by Step instructions with images
 
 
+
+![](./IMAGES/image010.jpg)
+*1. Right: Variable Entrance Slit, Left: Diagnoal Camera + Grating*
+
+![](./IMAGES/image011.jpg)
+*2. Right: ESP32 Camera for the detection of the diffracted light*
+
+![](./IMAGES/image012.jpg)
+*3. Front view of the magnetically mounted entrance slit*
+
+![](./IMAGES/image013.jpg)
+*4. Side covers to block straylight*
+
+![](./IMAGES/image014.jpg)
+*5. Fully assembled Spectrometer*
+
+![](./IMAGES/image016.jpg)
+*6. Fully covered Spectrometer*
+
+![](./IMAGES/image017.jpg)
+*7. Python Programm to convert the lineplot into a spectrum - See folder [PYTHON](./PYTHON)*
+
+![](./IMAGES/image018.jpg)
+*8. Example Plot of a spectrum (white light)*
+
+
+
+
+
+
+
+## Operation
 
 - After darkening the spectrometer, the spectrum can be seen on the laptop (via software).
-- Calibration 
-- First measurements with a torch 
+- Calibration
+- First measurements with a torch
+
+![](./IMAGES/image021.jpg)
+*10. Example Plot of a spectrum (red LED)*
+
+![](./IMAGES/image023.jpg)
+*10. Example Plot of a spectrum (green LED)*
 
 
-- With red LED 
-- With green LED 
+## Further Reading
+
+Public Lab: https://publiclab.org/wiki/spectrometry
+
+Gaudi Lab: https://www.gaudi.ch/GaudiLabs/?page_id=825
+
+ESPectrometer: https://matchboxscope.github.io/docs/Variants/ESPectrometer
+
 
 
 
@@ -242,5 +198,3 @@ REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 
 ## Collaborating
 If you find this project useful, please like this repository, follow us on Twitter and cite the webpage! :-)
-
-
